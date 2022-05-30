@@ -1,0 +1,43 @@
+*{
+    color: aliceblue;
+    font-family: 'Jost', sans-serif;
+}
+.banner{
+    background: #001f60;
+    height: 23rem;
+    width: 100vw;
+    text-align: center;
+}
+.enroll{
+    margin: auto;
+    text-align: center;
+    height: 6rem;
+}
+.photo{
+   margin-left: 2rem;
+}
+.img-fluid{
+    height: 18rem;
+    width: 15rem;
+}
+h3{
+    text-align: start;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 897px) {
+    .photo{
+        margin-left: 1.5rem;
+     }
+  }
+@media screen and (min-width: 749px) {
+    .photo{
+        margin-left: .5rem;
+     }
+  }
+@media screen and (max-width: 434px) {
+    .photo{
+        margin-left: .5rem;
+        height: 15rem !important;
+     }
+  }
